@@ -19,7 +19,7 @@ We'll no longer provide regular updates to our Helm chart. We'll also no longer 
 
 If you're currently using k8s to deploy PostHog, you have three options.
 
-The easiest option is to [migrate to PostHog Cloud]. We'll take care of everything, and it often works out much cheaper. For folks who had to self host to keep their data in the EU, we now offer PostHog EU Cloud. 
+The easiest option is to [migrate to PostHog Cloud](/docs/migrate/migrate-between-cloud-and-self-hosted). PostHog Cloud ensures you always have the latest features and often works out much cheaper too. For folks who had to self host to keep their data in the EU, we now offer [PostHog EU Cloud](/eu). 
 
 You can also continue using PostHog as you are now. We'll still provide security updates. Unfortunately we'll no longer be able to provide community support for Kubernetes deployments. If you're a paid customer using Kubernetes, we'll contact you separately.
 
