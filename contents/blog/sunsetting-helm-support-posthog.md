@@ -29,7 +29,7 @@ There will no longer be numbered releases of PostHog. Instead, we'll build a Doc
 
 ## Why are we doing this?
 
-We realized that our Kubernetes deployment did not work for both our free users and paying customers.
+We realized that self-hosting a Kubernetes deployment was too difficult and burdensome for both our free users and our paying customers.
 
 Hosting PostHog at scale is complex. With our kubernetes users, we've seen issues crop up at every part of the stack. In event ingestion, Kafka, Clickhouse, Postgres, Redis and within the application itself. Sometimes the fix is simple ("increase disk space"), but often the issue is something a couple of layers deep and very hard to debug, involving long calls with expensive engineers on both sides.
 
