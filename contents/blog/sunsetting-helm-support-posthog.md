@@ -31,7 +31,7 @@ There will no longer be numbered releases of PostHog. Instead, we'll build a Doc
 
 We realized that self-hosting a Kubernetes deployment was too difficult and burdensome for both our free users and our paying customers.
 
-Hosting PostHog at scale is complex. With our kubernetes users, we've seen issues crop up at every part of the stack. In event ingestion, Kafka, Clickhouse, Postgres, Redis and within the application itself. Sometimes the fix is simple ("increase disk space"), but often the issue is something a couple of layers deep and very hard to debug, involving long calls with expensive engineers on both sides.
+Hosting PostHog at scale is complex. With our Kubernetes users, we've seen issues crop up in every part of the stack. In event ingestion, Kafka, ClickHouse, Postgres, Redis and within the application itself. Sometimes the fix is simple ("increase disk space"), but often the issue is something a couple of layers deep and very hard to debug, involving long calls with expensive engineers on both sides.
 
 When we launched our Kubernetes deploy, we were hoping we could get to a stage where we battle tested enough of the components, and where we managed to automate enough that we could make self hosting and scaling PostHog seamless, with a minimum amount of effort.
 
