@@ -17,7 +17,6 @@ We're sunsetting support for our Kubernetes deployment for PostHog. Because we'r
 
 We realized that self-hosting a Kubernetes deployment was too difficult and burdensome for both our free users and our paying customers.
 
-
 When we launched our Kubernetes deploy, we were hoping we could get to a stage where we battle tested enough of the components. We hoped that we could automate enough to make self hosting and scaling PostHog seamless, with a minimum amount of effort.
 
 Hosting PostHog at scale is complex. With our Kubernetes users, we've seen issues crop up in every part of the stack. In event ingestion, Kafka, ClickHouse, Postgres, Redis and within the application itself. Sometimes the fix is simple ("increase disk space"), but often the issue is something a couple of layers deep and very hard to debug, involving long calls with expensive engineers on both sides. Even something as simple as a full disk would cause their instance of PostHog to be down for hours or days.
@@ -30,7 +29,7 @@ By not supporting Kubernetes, we will free up a lot of time to focus on our main
 
 ## What changes
 
-We'll no longer provide regular updates to our Helm chart. We'll also no longer sell the Enterprise Self-Hosted plan. We will continue to provide security updates on the last available version for at least the next 12 months.
+We'll no longer provide regular updates to our Helm chart after May 2023. We'll also no longer sell the Enterprise Self-Hosted plan. We will continue to provide security updates on the last available version for at least the next 12 months.
 
 If you're currently using Kubernetes to deploy PostHog, you have three options.
 
