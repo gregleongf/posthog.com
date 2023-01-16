@@ -33,7 +33,7 @@ We realized that self-hosting a Kubernetes deployment was too difficult and burd
 
 Hosting PostHog at scale is complex. With our kubernetes users, we've seen issues crop up at every part of the stack. In event ingestion, Kafka, Clickhouse, Postgres, Redis and within the application itself. Sometimes the fix is simple ("increase disk space"), but often the issue is something a couple of layers deep and very hard to debug, involving long calls with expensive engineers on both sides.
 
-When we launched our kubernetes deploy, we were hoping we could get to a stage where we battle tested enough of the components, and where we managed to automate enough that we could make self hosting and scaling PostHog seamless, with a minimum amount of effort.
+When we launched our Kubernetes deploy, we were hoping we could get to a stage where we battle tested enough of the components, and where we managed to automate enough that we could make self hosting and scaling PostHog seamless, with a minimum amount of effort.
 
 The reality is that the tools to do that automation just doesn't exist. We kept finding new failure modes. When onboarding a new customer we would have to vet their engineering team for Kubernetes experience so that we'd be confident they could help us debug issues in their PostHog deploy. Folks that didn't have infra experience would often be able to get something set up, only to get stuck when something went wrong.
 
