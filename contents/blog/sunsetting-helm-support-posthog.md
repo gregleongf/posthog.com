@@ -15,7 +15,7 @@ We're sunsetting support for our Kubernetes deployment for PostHog. Because we'r
 
 ## What changes
 
-We'll no longer be providing regular updates to our Helm chart. We'll also no longer be selling the Enterprise Self-Hosted plan. For at least the next 12 months we'll continue to provide security updates on the last available version.
+We'll no longer provide regular updates to our Helm chart. We'll also no longer sell the Enterprise Self-Hosted plan. We will continue to provide security updates on the last available version for at least the next 12 months.
 
 If you're currently using k8s to deploy PostHog, you have three options.
 
