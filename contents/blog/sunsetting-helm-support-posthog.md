@@ -17,7 +17,7 @@ We're sunsetting support for our Kubernetes deployment for PostHog. Because we'r
 
 We'll no longer provide regular updates to our Helm chart. We'll also no longer sell the Enterprise Self-Hosted plan. We will continue to provide security updates on the last available version for at least the next 12 months.
 
-If you're currently using k8s to deploy PostHog, you have three options.
+If you're currently using Kubernetes to deploy PostHog, you have three options.
 
 The easiest option is to [migrate to PostHog Cloud](/docs/migrate/migrate-between-cloud-and-self-hosted). PostHog Cloud ensures you always have the latest features and often works out much cheaper too. For folks who had to self host to keep their data in the EU, we now offer [PostHog EU Cloud](/eu). 
 
