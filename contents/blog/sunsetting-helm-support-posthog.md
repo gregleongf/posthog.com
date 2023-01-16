@@ -39,4 +39,4 @@ The reality is that the tools to do that automation just doesn't exist. We kept 
 
 We're a small infrastructure team, and as more and more customers moved to PostHog Cloud or our open source Docker deployment, we were spending an outsized amount of engineering time supporting that 3.5% of users.
 
-By not having to support Kubernetes, we free up a lot of time to focus on our main priorities, which are PostHog Cloud and the open source Docker deployment. Ultimately, this will lead to a better experience for the vast majority of our users.
+By not supporting Kubernetes, we will free up a lot of time to focus on our main infrastructure priorities, which are PostHog Cloud and the open source Docker deployment. Ultimately, this will lead to a better experience for the vast majority of our users.
