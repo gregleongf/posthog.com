@@ -32,7 +32,11 @@ See [environment variables documentation](/docs/self-host/configure/environment-
 
 ### Manual materialization
 
-`python manage.py materialize_columns` command can be used to manually materialize one or more properties.
+`python manage.py materialize_columns` command can be used to manually materialize property, for example:
+
+```bash
+python manage.py materialize_columns --property '$pathname'
+```
 
 Alternatively this can be done over `python manage.py shell_plus`. One example of materializing all properties used by a team can be found here:
 
